@@ -1,0 +1,28 @@
+baseurl = "http://ecallen.com/"
+theme = "cocoa-eh"
+builddrafts = false 
+canonifyurls = true
+contentdir = "content"
+languageCode = "en-US"
+layoutdir = "layouts"
+publishdir = "public"
+author = "ECAllen"
+title = "ECAllen"
+disqusshortname = "ecallen-com"
+pluralizelisttitles = false
+
+[permalinks]
+blog = "blog/:slug/"
+
+[params]
+dateform = "Jan 2, 2006"
+dateformfull = "Mon Jan 2 2006 15:04:05 MST"
+description = "blog of ECAllen"
+logofile = "img/logo.jpeg"
+faviconfile = "img/logo.jpeg"
+highlightjs = true
+lang = "en"
+github = "https://github.com/ECAllen"
+# email = "you@example.com"
+linkedin = "https://www.linkedin.com/in/ethancallen"
+# twitter = "@example"
